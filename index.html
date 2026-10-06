@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Separate removing a GitHub issue pin from deleting the underlying issue.">
+  <title>Removing a GitHub Issue Pin Does Not Remove the Issue</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%225%22%20fill%3D%22%23945947%22%2F%3E%3Cpath%20d%3D%22M8%208h16M8%2016h12M8%2024h16%22%20stroke%3D%22white%22%20stroke-width%3D%223%22%2F%3E%3C%2Fsvg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body><main class="article-shell"><article><h1>Removing a GitHub Issue Pin Does Not Remove the Issue</h1>
+<p>A repository notice can stop deserving the most prominent position without losing its value as a record. Perhaps a contribution drive has ended, a temporary warning has been replaced, or an introductory question no longer needs to greet every visitor. Removing its pin addresses that placement. It is not a request to erase the issue underneath it.</p>
+<p>That distinction matters when you maintain a public resource guide on GitHub. Readers may have saved the issue, quoted a comment, or used its discussion to understand a decision. Before cleaning up the top of the Issues page, decide whether you want to change attention, task status, or retention. Those are different editorial decisions, even when they concern the same notice.</p>
+<figure><img src="assets/retained-card.jpg" alt="" width="1536" height="1024"></figure>
+<h2>Treat the pin as placement, not the record</h2>
+<p>GitHub supports pinning up to three important issues above a repository's issue list. People with write access can pin them. This creates a small area for material that deserves extra attention; it does not turn that area into the repository's complete history.</p>
+<p>GitHub also documents a separate unpin operation in its command-line interface. Its purpose is to remove the pin. Deleting an issue is a different operation, documented separately as permanent removal. Do not substitute deletion when your actual request is simply to stop featuring an old notice.</p>
+<p>For everyday maintenance, describe the requested change before selecting a control. “Stop highlighting this announcement” is clearer than “remove this issue.” The second phrase leaves room for someone to delete information that another maintainer expected to retain.</p>
+<p>Think of a noticeboard with a separate filing cabinet. Taking a card off the board answers where it is displayed, not whether the record should exist. The analogy is only a planning aid, but it helps keep a visual cleanup from becoming an unintended retention decision.</p>
+<h2>Define what should survive the cleanup</h2>
+<p>Consider a fictional repository maintained by Elian for a community mapping workshop. An issue called “Send corrections before the autumn review” has been pinned while volunteers check a printed resource guide. The review period ends, and a new workshop announcement needs attention.</p>
+<p>Elian still wants to keep the old issue's discussion. Several comments explain why duplicate entries were combined, and a volunteer has saved its address for the next edition. The maintenance goal is therefore narrow: retire the old highlight while preserving that useful context.</p>
+<p>Before acting, Elian records the issue number, title, and direct address in a private working note. He also notes its current open or closed status. These observations create a small baseline for checking the result; they are not a substitute for a backup or a guarantee about future availability.</p>
+<p>If the deadline text is misleading, that is another problem to address deliberately. An authorized maintainer might add a brief update explaining that the review period has ended. Removing a pin alone does not rewrite the announcement or tell every person who saved it that its instructions have changed.</p>
+<p>The desired outcome now has two parts: the old notice is no longer featured, and the original issue remains readable by the intended audience. Both parts must be checked. A tidier top section proves only the first.</p>
+<h2>Verify the placement and the destination separately</h2>
+<p>Use a small, explicit check instead of changing several controls at once. The following sequence is intended for a repository you are authorized to maintain. If you only read the repository, ask its maintainer to make the change rather than looking for another way to alter it.</p>
+<ol>
+<li>Open the intended repository and issue, then confirm its number and title against your working note.</li>
+<li>Confirm that removing the highlight is the intended task, rather than changing the issue's content or deleting its record.</li>
+<li>Use the available unpin operation with appropriate permissions. If the interface is unclear, stop and consult current official guidance instead of choosing a similarly named destructive action.</li>
+<li>Return to the repository's Issues page and check that the issue is no longer in the pinned area.</li>
+<li>Open the original issue address separately and confirm that the expected discussion and status remain available to the intended reader.</li>
+</ol>
+<p>Do not assume that a missing tile means the underlying page has disappeared. Conversely, seeing the issue yourself does not prove that every reader has access. Your account may have permissions that a visitor lacks, so test only the audience and access conditions relevant to the repository.</p>
+<p>In Elian's example, the useful result is deliberately uneventful. The notice no longer occupies a featured position, but its original discussion still provides the reasoning behind the autumn review. No replacement issue is needed just to preserve that history.</p>
+<h2>Keep discovery notes separate from issue history</h2>
+<p>A resource repository may collect ideas from many places before turning them into reviewed entries. A broad discovery starting point such as <a href="https://xn--o39ap22bba372d6zbda.com/" rel="noopener noreferrer">주소가자</a> can be kept in that exploratory workflow, but it does not establish how GitHub pins work or verify the quality of any destination you later encounter. Confirm each useful item's details at its own source before including it in the guide.</p>
+<p>This separation helps when an old collection notice stops being prominent. The notice records a particular round of work; the guide contains the entries that survived review; exploratory notes hold leads that may never be accepted. Removing the notice's pin should not blur those roles.</p>
+<p>For example, Elian may have a dozen unreviewed suggestions after the deadline. He can preserve them in the original conversation while clearly stating that they are outside the completed review. He should not imply that everything mentioned there is now part of the published guide simply because the issue was once pinned.</p>
+<p>Likewise, a newly pinned notice should say what it is asking readers to do now. It should not silently inherit the old notice's deadline, approval assumptions, or unresolved questions. A fresh position on the page is not evidence that the contents have been checked.</p>
+<h2>Leave a precise handoff for the next maintainer</h2>
+<p>A useful maintenance note names the action and the observation. “Unpinned the autumn correction notice; its original issue remains readable” gives another person something concrete to inspect. “Cleaned up old issues” hides both the scope and the result.</p>
+<p>Record any separate content changes individually. If a deadline sentence was updated, say so. If the issue's status was changed as part of a different decision, record that too. Keeping the actions separate makes it easier to understand which change caused a later question from a reader.</p>
+<p>Avoid promising that the saved address will work forever. Repository access, later administrative actions, or other changes can affect what a reader sees. Your check establishes what was observed at the time, not permanent availability under every future condition.</p>
+<p>If the original issue cannot be opened after the cleanup, pause before recreating it. Confirm the repository, issue number, account context, and exact operation performed. A new issue with a similar title is not the same discussion, and immediately creating one can make the trail harder to follow.</p>
+<p>The finish line is simple: a reader can distinguish the current announcement from the retained discussion, and a maintainer can explain exactly what changed. There is no need to turn a small placement adjustment into a broader reorganization unless the repository actually needs one.</p>
+<h2>Questions before you retire a pinned notice</h2>
+<h3>Does removing the pin delete the discussion?</h3>
+<p>No. Unpinning removes the issue's pinned placement; deletion is a separate operation. Still, check the original issue address after the change so that your handoff is based on an observed result, not merely the disappearance of its featured tile.</p>
+<h3>Should I change the issue's status at the same time?</h3>
+<p>Only if that is a separate, intentional decision about the work. Whether the issue needs prominent placement and whether its task is finished are different questions. Decide each explicitly, and do not use one as a substitute for the other.</p>
+<h3>What if I cannot find a clear unpin control?</h3>
+<p>Check your permissions and current GitHub guidance, or ask an authorized maintainer. GitHub's command-line manual documents unpinning as its own operation, but using that route requires the appropriate setup and access. Do not choose Delete issue just to make a notice disappear from the top section.</p></article></main></body>
+</html>
